@@ -1,0 +1,2 @@
+[console_scripts]
+multi-tool = multi_tool.main:main
