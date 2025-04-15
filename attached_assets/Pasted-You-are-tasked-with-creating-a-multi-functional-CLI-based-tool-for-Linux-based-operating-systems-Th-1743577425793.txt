@@ -1,0 +1,77 @@
+You are tasked with creating a multi-functional CLI-based tool for Linux-based operating systems. The tool should incorporate the following functionalities:
+
+IP Information
+SSL Chain Analysis
+DNS Records Retrieval
+Cookie Management
+Crawl Rules Configuration
+HTTP Headers Analysis
+Quality Metrics Assessment
+Server Location Information
+Associated Hosts Identification
+Redirect Chain Inspection
+TXT Records Retrieval
+Server Status Monitoring
+Open Ports Scanning
+Traceroute Execution
+Carbon Footprint Estimation
+Server Information Gathering
+Whois Lookup
+Domain Information Retrieval
+DNS Security Extensions Check
+Website Features Analysis
+HTTP Strict Transport Security Inspection
+DNS Server Identification
+Tech Stack Analysis
+Listed Pages Retrieval
+security.txt Inspection
+Linked Pages Extraction
+Social Tags Analysis
+Email Configuration Check
+Firewall Detection
+HTTP Security Features Analysis
+Archive History Retrieval
+Global Ranking Information
+Block Detection
+Malware & Phishing Detection
+TLS Cipher Suites Analysis
+TLS Security Configuration Check
+TLS Handshake Simulation
+Screenshot Capture
+To create this tool, follow the steps below:
+
+Step 1: Define the CLI interface using a library such as argparse or click.
+Step 2: Implement each functionality as a separate command within the CLI tool.
+Step 3: Use appropriate libraries and tools for each functionality:
+
+IP Information: requests, ipinfo
+SSL Chain Analysis: ssl, cryptography
+DNS Records Retrieval: dnspython
+Cookie Management: http.cookies
+HTTP Headers Analysis: requests
+Traceroute Execution: subprocess, scapy
+Whois Lookup: whois
+etc.
+Step 4: Ensure that the tool output is clear and concise, leveraging formatters such as json, xml, or table.
+
+Step 5: Provide usage examples for each command in the tool’s documentation.
+
+Step 6: Test the tool thoroughly across various environments and scenarios to ensure reliability and accuracy.
+
+Step 7: Package the tool for easy installation via a package manager like pip.
+
+Here is an example CLI structure for the tool:
+
+multi-tool:
+  ipinfo [IP]              - Get information about an IP address
+  sslchain [DOMAIN]        - Analyze the SSL chain for a domain
+  dnsrecords [DOMAIN]      - Retrieve DNS records for a domain
+  cookies [URL]            - Manage cookies for a URL
+  crawlrules [SETTINGS]    - Configure crawl rules
+  headers [URL]            - Analyze HTTP headers for a URL
+  qualitymetrics [URL]     - Assess quality metrics for a website
+  serverlocation [DOMAIN]  - Get server location information
+  associatedhosts [DOMAIN] - Identify associated hosts
+  redirectchain [URL]      - Inspect the redirect chain for a URL
+  ...
+Please implement the tool according to the guidelines above.
